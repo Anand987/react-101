@@ -13,7 +13,7 @@ const ProjectItem = (props) => {
           <h5 className="text-gray-900 font-bold text-2xl tracking-tight mb-2 dark:text-white">
             {projectName}
           </h5>
-          <p className="font-normal text-gray-700 mb-3 dark:text-gray-400">
+          <p className="font-normal text-gray-700 mb-3 dark:text-gray-400 truncate">
             {projectDescription}
           </p>
           <Link
