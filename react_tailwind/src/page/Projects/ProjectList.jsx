@@ -8,14 +8,20 @@ const Project = [
     description:
       "Here are the biggest enterprise technology acquisitions of 2021 so far, in reverse chronological order.",
     imageUrl: LandingPage01,
-    projectLink: "/landingpage/01",
+    projectLink: "/projects/landingpage",
   },
   {
     name: "Intercom UI",
     description:
       "Intercom UI designed based on video https://www.youtube.com/watch?v=cg1qbkG0KRI.",
     imageUrl: LandingPage01,
-    projectLink: "/intercomui",
+    projectLink: "/projects/intercomui",
+  },
+  {
+    name: "Data Grid Table",
+    description: "Materail UI Data Grid Table.",
+    imageUrl: LandingPage01,
+    projectLink: "/projects/datagrid",
   },
 ];
 

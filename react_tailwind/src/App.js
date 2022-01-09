@@ -1,10 +1,5 @@
 import React from "react";
-import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-
-import LandingPage from "./page/LandingPages/LandingPageOne";
-import Home from "./page/Home/Home";
-import ProjectList from "./page/Projects/ProjectList";
-import IntercomUI from "./page/IntercomUI/IntercomUI";
+import AppRoutes from "./AppRoutes";
 
 function App() {
   return (
@@ -23,14 +18,7 @@ function App() {
           </a>
         ))}
       </nav>
-      <Router>
-        <Routes>
-          <Route exact path="/" element={<Home />} />
-          <Route path="/landingpage/01" element={<LandingPage />} />
-          <Route path="/intercomui" element={<IntercomUI />} />
-          <Route path="/projects" element={<ProjectList />} />
-        </Routes>
-      </Router>
+      <AppRoutes />
     </React.Fragment>
   );
 }
