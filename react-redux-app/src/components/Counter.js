@@ -5,8 +5,8 @@ import { counterActions } from "../store/store";
 
 const Counter = () => {
   // useSelectore gives the state value from store
-  const counter = useSelector((state) => state.counter);
-  const show = useSelector((state) => state.showCounter);
+  const counter = useSelector((state) => state.counter.counter);
+  const show = useSelector((state) => state.counter.showCounter);
 
   // calls a dispatch funciton from react-redux to use dipatch funciton in store.
   const dispatch = useDispatch();
